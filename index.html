@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>El Mundo de las Frutas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #2e7d32;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner con degradado */
+        .banner {
+            background: linear-gradient(90deg, #ff9800, #ff5722);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+
+        /* Tarjetas de frutas */
+        .frutas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 250px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#frutas">Frutas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <header class="banner" id="inicio">
+        <h1>El Mundo de las Frutas</h1>
+        <p>Salud, sabor y energía natural</p>
+    </header>
+
+    <!-- Sección Beneficios -->
+    <section id="beneficios">
+        <h2>Beneficios de las Frutas</h2>
+        <p>
+            Las frutas son una parte esencial de una alimentación equilibrada. 
+            Aportan vitaminas, minerales, fibra y antioxidantes que ayudan al 
+            correcto funcionamiento del cuerpo.
+        </p>
+    </section>
+
+    <!-- Sección Frutas -->
+    <section id="frutas">
+        <h2>Frutas Populares</h2>
+        <div class="frutas">
+            <div class="card">
+                <h3>Manzana</h3>
+                <p>Rica en fibra y muy refrescante. Ideal para consumir a diario.</p>
+            </div>
+            <div class="card">
+                <h3>Banana</h3>
+                <p>Fuente natural de energía y potasio.</p>
+            </div>
+            <div class="card">
+                <h3>Naranja</h3>
+                <p>Excelente fuente de vitamina C y jugos naturales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+            Para más información sobre frutas y alimentación saludable,
+            puedes escribirnos a: <strong>info@frutas.com</strong>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 - Página educativa sobre frutas</p>
+    </footer>
+
+</body>
+</html>
